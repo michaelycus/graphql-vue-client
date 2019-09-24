@@ -8,39 +8,39 @@
     </header>
     <ul class="nav">
       <NavLink header="Dashboard"
-               link="/app/dashboard"
+               link="/dashboard"
                iconName="flaticon-home"
                index="dashboard"
                isHeader />
       <NavLink header="Typography"
-               link="/app/typography"
+               link="/typography"
                iconName="flaticon-list"
                index="typography"
                isHeader />
       <NavLink header="Users"
-               link="/app/users"
+               link="/users"
                iconName="flaticon-users"
                index="users"
                isHeader />
       <NavLink header="Tables Basic"
-               link="/app/tables"
+               link="/tables"
                iconName="flaticon-equal-1"
                index="tables"
                isHeader />
       <NavLink header="Notifications"
-               link="/app/notifications"
+               link="/notifications"
                iconName="flaticon-star"
                index="notifications"
                isHeader />
       <NavLink :activeItem="activeItem"
                header="Components"
-               link="/app/components"
+               link="/components"
                iconName="flaticon-network"
                index="components"
                :childrenLinks="[
-          { header: 'Charts', link: '/app/components/charts' },
-          { header: 'Icons', link: '/app/components/icons' },
-          { header: 'Maps', link: '/app/components/maps' },
+          { header: 'Charts', link: '/components/charts' },
+          { header: 'Icons', link: '/components/icons' },
+          { header: 'Maps', link: '/components/maps' },
         ]" />
     </ul>
 

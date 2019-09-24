@@ -127,7 +127,7 @@
                   slot-scope="row">
 
           <b-link class="m-2 btn-icon btn-icon-only btn-pill"
-                  :to="`${urlTo}/${row.item.id}/edit`">
+                  :to="`${urlTo}${row.item.id}/edit`">
             <font-awesome-icon icon="edit" />
           </b-link>
 

@@ -4,6 +4,7 @@ import Router from 'vue-router';
 import Layout from '@/components/Layout/Layout';
 import Login from '@/pages/Login/Login';
 import ErrorPage from '@/pages/Error/Error';
+
 // Core
 import TypographyPage from '@/pages/Typography/Typography';
 import UserPage from '@/pages/User/components/TheList';
