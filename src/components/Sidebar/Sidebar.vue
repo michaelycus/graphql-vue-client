@@ -17,6 +17,16 @@
                iconName="flaticon-list"
                index="typography"
                isHeader />
+      <NavLink header="Authors"
+               link="/authors"
+               iconName="flaticon-user-1"
+               index="authors"
+               isHeader />
+      <NavLink header="Books"
+               link="/books"
+               iconName="flaticon-document"
+               index="books"
+               isHeader />
       <NavLink header="Users"
                link="/users"
                iconName="flaticon-users"

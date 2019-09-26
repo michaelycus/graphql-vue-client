@@ -10,6 +10,12 @@ import TypographyPage from '@/pages/Typography/Typography';
 import UserPage from '@/pages/User/components/TheList';
 import UserForm from '@/pages/User/components/TheForm';
 
+import AuthorPage from '@/pages/Author/components/TheList';
+import AuthorForm from '@/pages/Author/components/TheForm';
+
+import BookPage from '@/pages/Book/components/TheList';
+import BookForm from '@/pages/Book/components/TheForm';
+
 // Tables
 import TablesBasicPage from '@/pages/Tables/Basic';
 
@@ -57,6 +63,39 @@ export default new Router({
                     name: 'TypographyPage',
                     component: TypographyPage,
                 },
+                // authors
+                {
+                    path: 'authors',
+                    name: 'AuthorPage',
+                    component: AuthorPage,
+                },
+                {
+                    path: 'authors/add',
+                    name: 'AuthorAdd',
+                    component: AuthorForm,
+                },
+                {
+                    path: 'authors/:id/edit',
+                    name: 'AuthorEdit',
+                    component: AuthorForm,
+                },
+                //books
+                {
+                    path: 'books',
+                    name: 'BookPage',
+                    component: BookPage,
+                },
+                {
+                    path: 'books/add',
+                    name: 'BookAdd',
+                    component: BookForm,
+                },
+                {
+                    path: 'books/:id/edit',
+                    name: 'BookEdit',
+                    component: BookForm,
+                },
+                // users
                 {
                     path: 'users',
                     name: 'UserPage',
